@@ -1,3 +1,9 @@
+
 <resources>
-    <string name="app_name">granadascs2</string>
+    <string name="app_name">CsgoGrenades</string>
+    <string-array name="map_array">
+        <item>Inferno</item>
+        <item>Dust 2</item>
+        <item>Mirage</item>
+    </string-array>
 </resources>
