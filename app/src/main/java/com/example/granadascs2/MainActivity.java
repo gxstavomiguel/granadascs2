@@ -44,12 +44,11 @@ public class MainActivity extends AppCompatActivity {
                 // addVideo(R.raw.inferno_grenade_2, "Pixel 2 - Inferno");
                 break;
             case "Dust 2":
-                // addVideo(R.raw.dust2_grenade_1, "Pixel 1 - Dust 2");
-                //addVideo(R.raw.dust2_grenade_2, "Pixel 2 - Dust 2");
+                addVideo(R.raw.dust_caixagorda, "Caixa Gorda - Dust 2");
+                addVideo(R.raw.dust_smokect, "Smoke Base CT - Dust 2");
                 break;
             case "Mirage":
-                addVideo(R
-                        .raw.mirage_caverna, "Caverna - Mirage");
+                addVideo(R.raw.mirage_caverna, "Caverna - Mirage");
                 addVideo(R.raw.mirage_janela, "Janela - Mirage");
                 break;
         }
