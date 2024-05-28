@@ -39,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void updateConnector(String drive){
+
+    }
+
     private void loadMapVideos(String map) {
         videoContainer.removeAllViews();
 
