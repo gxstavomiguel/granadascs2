@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
         switch (map) {
             case "Inferno":
-                // addVideo(R.raw.inferno_grenade_2, "Pixel 2 - Inferno");
+                addVideo(R.raw.inferno_ct, "Smoke Base CT - Inferno");
+                addVideo(R.raw.inferno_nip, "Smoke NIP - Inferno");
                 break;
             case "Dust 2":
                 addVideo(R.raw.dust_caixagorda, "Caixa Gorda - Dust 2");
